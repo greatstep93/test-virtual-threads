@@ -1,0 +1,6 @@
+spring:
+#  thread-executor: virtual
+  thread-executor: no-virtual
+  application:
+    name:
+      test-virtual-threads
