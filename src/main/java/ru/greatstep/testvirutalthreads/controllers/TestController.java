@@ -22,7 +22,6 @@ public class TestController {
 
     @GetMapping("/test")
     public String findAll() {
-        System.out.println(Thread.currentThread());
         return sleep(() -> RESPONSE_BODY);
     }
 

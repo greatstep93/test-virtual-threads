@@ -1,6 +1,9 @@
 spring:
-#  thread-executor: virtual
-  thread-executor: no-virtual
+  thread-executor: virtual
+#  thread-executor: no-virtual
   application:
     name:
       test-virtual-threads
+server:
+  tomcat:
+    accept-count: 10000
